@@ -8,6 +8,7 @@ public class Ejemplo01 {
 		 * estructura try catch	 */
 		try {
 			double array[] = new double [1000000000];
+			double array2[] = new double [1234];
 		}
 		
 		catch (OutOfMemoryError Error) {
