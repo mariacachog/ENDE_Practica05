@@ -13,5 +13,13 @@ public class Ejemplo01 {
 		catch (OutOfMemoryError Error) {
 			System.err.println("ERROR: Memoria insuficiente.");
 		}
+	
+		try {
+			double array2[] = new double [2000000000];
+		}
+		
+		catch (OutOfMemoryError Error) {
+			System.out.println("ERROR: Memoria insuficiente.");
+		}
 	}
 }
