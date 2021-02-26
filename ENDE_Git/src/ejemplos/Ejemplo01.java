@@ -9,6 +9,7 @@ public class Ejemplo01 {
 		try {
 			double array[] = new double [1000000000];
 			double array2[] = new double [1234];
+			double array3[] = new double [1234567];
 		}
 		
 		catch (OutOfMemoryError Error) {
