@@ -20,7 +20,7 @@ public class Ejemplo01 {
 		}
 		
 		catch (OutOfMemoryError Error) {
-			System.out.println("ERROR: Memoria insuficiente.");
+			System.out.print("ERROR: Memoria insuficiente.");
 		}
 	}
 }
